@@ -43,7 +43,6 @@ header {
   background-size: cover;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  //font-style: italic;
 }
 header h1{
   text-align: left;
@@ -105,4 +104,41 @@ header button{
 } */
 .col-md-4{
   margin-bottom: 40px;
+}
+
+
+
+
+/* Team Section */
+.member img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#0d6efd);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.team{
+  text-align: center;
+}
+.team h3{
+  margin-top: 20px;
+}
+.member h6{
+  color: rgb(109, 109, 109);
+}
+.member{
+  margin-bottom: 70px;
+}
+.member p{
+  padding: 15px;
+  color: inherit;
+}
+.member p:hover{
+  /* box-shadow: 0 0 6px rgba(0, 0, 0, 0.384); */
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
 }
