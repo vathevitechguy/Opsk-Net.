@@ -83,7 +83,7 @@ header button{
 #services i {
   font-size: 27px;
   padding: 15px 19px 25px 18px;
-  color: #0d6efd;
+  color: #fff;
   background-color: rgb(8, 8, 8);
   width: 80px;
   height: 80px;
@@ -127,7 +127,8 @@ header button{
   margin-top: 20px;
 }
 .member h6{
-  color: rgb(109, 109, 109);
+  color: rgb(36, 35, 35);
+  font-weight: lighter;
 }
 .member{
   margin-bottom: 70px;
