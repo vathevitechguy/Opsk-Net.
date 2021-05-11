@@ -16,6 +16,7 @@ nav{
   position: fixed;
   top: 0;
   width: 100%;
+  z-index:1;
 }
 .navbar-brand{
   margin-left: 45px;
@@ -82,7 +83,7 @@ header button{
 }
 #services i {
   font-size: 27px;
-  padding: 15px 19px 25px 18px;
+  padding: 17px 19px 23px 18px;
   color: #fff;
   background-color: rgb(8, 8, 8);
   width: 80px;
@@ -142,4 +143,128 @@ header button{
   background: #000;
   color: #fff;
   border-radius: 10px;
+}
+
+.link{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.social i{
+  font-size: 18px;
+}
+.social i:hover{
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+/*Contact*/
+.contact {
+   margin-bottom: 80px;
+}
+.contact .input-group {
+   margin-bottom: 25px;
+}
+.contact i {
+   padding: 13.5px;
+   padding-bottom: 14px;
+   background-color: #000;
+   color: #fff;
+}
+.input-group-prepend{
+  margin-top: 12px;
+}
+input:focus{
+  border: 2px solid dodgerblue;
+}
+.contact .btn {
+   border-radius: 25px;
+   width: 300px;
+   padding: 10px;
+   font-size: 16px;
+   background-color: #0d6efd;
+  background-image: linear-gradient(to right, #f00, #0d6efd);
+   color: #fff;
+}
+.contact .btn:hover {
+   background-color: #fff !important;
+   background-image: linear-gradient(to right, #fff, #fff);
+   color: #000 !important;
+   border: 2px solid #000;
+}
+input::placeholder{
+  font-size: 14px;
+  font-style: italic;
+}
+/* input{
+  position: unset;
+} */
+textarea::placeholder{
+  font-size: 14px;
+  font-style: italic;
+}
+
+
+
+/* footer */
+footer{
+  background-image: url(http://layerdrops.com/apitonhtml/assets/images/resources/video-bg-1-1.jpg) ;
+  background-size: cover;
+  height: auto;
+  color: #fff;
+  margin-top: 120px;
+}
+.foot-overlay{
+  background-color: rgba(0, 0, 0, 0.938);
+  height: auto;
+}
+.foot-content h4{
+  padding-top: 40px; 
+}
+.foot-content ul li{
+  list-style: none;
+  margin-left: -20px;
+  margin-top: 14px;
+}
+.foot-content ul li i{
+  margin-right: 6px;
+  color: #0d6efd;
+  margin-top: -9px;
+}
+.foot-content ul li a{
+  text-decoration: none;
+  color: #fff !important;
+}
+.foot-content ul li a:hover{
+  color: #0d6efd !important;
+}
+.subscribe{
+  box-sizing: border-box;
+}
+.subscribe input{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.subscribe button{
+  float: right;
+  margin-top: 5px;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  width: 120px;
+  margin-bottom: 20px
+}
+.subscribe button:hover{
+  border: 2px solid #000;
+  background: #fff;
+  color: #000;
+}
+.copyright{
+  padding-top: 10px;
+  background-color: rgb(29, 27, 27);
+  height: 40px;
+  color: #fff;
+  text-align: center;
 }
